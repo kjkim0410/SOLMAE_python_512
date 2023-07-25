@@ -56,10 +56,10 @@ Note that the message MUST be a byte array or byte string.
 This is code for NIST level I(SOLMAE-512) and you can make it for NIST level V(SOLMAE-1024) by changing `SOLMAE_D` in `params.py` from 512 to 1024.
 This is not reference code. The reference code of SOLMAE in C language is on https://kpqc.or.kr/competition.html.
 This is work in progress. It is not to be considered secure or suitable for production. This Python script was successfully compiled and verified by Python 3.8.9. for our implementation.
-Also, I do not guarantee portability on Python 2.x.
+Also, we do not guarantee portability on Python 2.x.
 However, this Python code is rather simple, so We hope that it will be helpful to people seeking to implement SOLMAE.
 
-If you find errors or flaw, we will be more than happy if you report them to me at the provided address.
+If you find errors or flaws, we will be more than happy if you report them to us at the provided address.
 
 ## License
 
