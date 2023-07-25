@@ -4,6 +4,7 @@ This repository implements the signature scheme, SOLMAE (https://ircs.re.kr/?p=1
 
 SOLMAE stands for quantum-**S**ecure alg**O**rithm for **L**ong-term **M**essage **A**uthentication and **E**ncryption
 
+
 ## Content
 
 This repository contains the following files (roughly in order of dependency):
@@ -52,7 +53,7 @@ Note that the message MUST be a byte array or byte string.
 
 
 ## Disclaimer
-
+This is code for NIST lv1(512) and you can make it for NIST lv5(1024) by change `SOLMAE_D` in `params.py` 512 to 1024.
 This is not reference code. The reference code of SOLMAE in C language is on https://kpqc.or.kr/competition.html.
 This is work in progress. It is not to be considered secure or suitable for production. This Python script was successfully compiled and verified by Python 3.8.9. for our implementation.
 Also, I do not guarantee portability on Python 2.x.
